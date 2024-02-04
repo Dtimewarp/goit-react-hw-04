@@ -29,7 +29,7 @@ export const SearchBar = ({ onSearch }) => {
             placeholder="Search images and photos"
           />
           <button className={css.btn} type="submit">
-            <IconContext.Provider value={{ color: 'wheat' }}>
+            <IconContext.Provider value={{ color: '#800020' }}>
               <IoSearch />
             </IconContext.Provider>
           </button>
