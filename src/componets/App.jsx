@@ -49,7 +49,6 @@ export const App = () => {
 
         if (!response.results.length)
           toast('Nothing was found', {
-            icon: '☠️',
             style: { borderRadius: '10px', background: '#333', color: '#fff' },
           });
         setTotalPages(response.total_pages);
