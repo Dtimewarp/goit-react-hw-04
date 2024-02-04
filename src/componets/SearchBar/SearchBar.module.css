@@ -1,0 +1,27 @@
+.formWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  position: relative;
+}
+
+.input {
+  padding: 10px 32px;
+  width: 345px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: black;
+}
+
+.btn {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  border: none;
+  background-color: transparent;
+}
